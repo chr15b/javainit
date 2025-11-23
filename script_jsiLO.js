@@ -19,3 +19,10 @@ let isWeekend = true;
 if ( hour < 10 || hour > 18 || isWeekend) {
     alert('The office is closed.');
 }
+
+alert ( 1 || 0);
+
+alert (null || 1);
+alert (null || 0 || 1);
+
+alert (undefined || null || 0);
