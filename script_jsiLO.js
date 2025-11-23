@@ -26,3 +26,9 @@ alert (null || 1);
 alert (null || 0 || 1);
 
 alert (undefined || null || 0);
+
+let firstName = "";
+let lastName = "";
+let nickName = "SuperCoder";
+
+alert( firstName || lastName || nickName || "Anonymous");
