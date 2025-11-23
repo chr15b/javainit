@@ -17,5 +17,5 @@ hour = 12;
 let isWeekend = true;
 
 if ( hour < 10 || hour > 18 || isWeekend) {
-    alert('The office is closed');
+    alert('The office is closed.');
 }
