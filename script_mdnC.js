@@ -1,3 +1,4 @@
+/* Shopping done if statement
 let shoppingDone = false;
 let childAllowance;
 
@@ -6,4 +7,5 @@ if (shoppingDone === true) {
 } else {
     childAllowance = 5;
 } 
-alert(childAllowance);
+alert(childAllowance); */
+
