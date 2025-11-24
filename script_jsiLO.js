@@ -78,7 +78,7 @@ x = 1;
 if (x > 0) alert( 'Greater than zero! (correct way)');
 */
 
-/* ! NOT Exercies */
+/* ! NOT Exercies
 
 alert( !true );
 alert( !0 );
@@ -88,3 +88,5 @@ alert( !!null );
 
 alert( Boolean("non-empty string"));
 alert( Boolean(null));
+
+*/
