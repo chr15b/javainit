@@ -110,9 +110,15 @@ alert( alert(1) && alert(2) );
 
 alert( "5. 3");
 alert( null || 2 && 3 || 4 );
-*/
 
-let age = 50
+
+let age = 50;
 if ((age >=14) && (age<=90)) {
     alert( "6. Age between 14 & 90");
+}
+    */
+
+let age = 7;
+if (! ( age>=14 ) || (age<=90)) {
+    alert( "7. Age less than 14 or over 90");
 }
