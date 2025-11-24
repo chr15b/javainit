@@ -62,3 +62,7 @@ alert( 1 && 5);
 // AND returns it. The second operand is ignored
 alert( null && 5);
 alert( 0 && "no matter what");
+
+alert( 1 && 2 && null && 3 );
+
+alert( 1 && 2 && 3 );
