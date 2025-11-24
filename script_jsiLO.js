@@ -1,4 +1,4 @@
-/* 
+/* || OR exercises
 alert ( true || true );
 alert ( false || true );
 alert ( true || false );
@@ -66,3 +66,7 @@ alert( 0 && "no matter what");
 alert( 1 && 2 && null && 3 );
 
 alert( 1 && 2 && 3 );
+
+let x = 1;
+
+(x > 0) && alert( 'Greater than zero!' );
