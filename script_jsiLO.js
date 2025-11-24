@@ -52,3 +52,13 @@ if (hour == 12 && minute == 30) {
 if (1 && 0) {
     alert( "won't work because the result is falsy");
 }
+
+// if the first operand is truthy,
+// AND returns the second operand:
+alert( 1 && 0);
+alert( 1 && 5);
+
+// if the first operand is falsy,
+// AND returns it. The second operand is ignored
+alert( null && 5);
+alert( 0 && "no matter what");
