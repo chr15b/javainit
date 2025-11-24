@@ -90,3 +90,6 @@ alert( Boolean("non-empty string"));
 alert( Boolean(null));
 
 */
+
+alert("1. 2")
+alert( null || 2 || undefined );
