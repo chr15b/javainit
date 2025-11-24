@@ -77,3 +77,8 @@ x = 1;
 
 if (x > 0) alert( 'Greater than zero! (correct way)');
 */
+
+/* ! NOT Exercies */
+
+alert( !true );
+alert( !0 );
