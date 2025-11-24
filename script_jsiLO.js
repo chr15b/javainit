@@ -102,7 +102,11 @@ alert( alert(1) || 2 || alert(3) );
 
 alert( "3. null");
 alert ( 1 && null && 2 );
+
+
+alert( "4. 1"); // 1 then undefind
+alert( alert(1) && alert(2) );
 */
 
-alert( "4. 1");
-alert( alert(1) && alert(2) );
+alert( "5. 3");
+alert( null || 2 && 3 || 4 );
