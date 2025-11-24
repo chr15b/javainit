@@ -142,5 +142,5 @@ if (username == "Admin") {
     alert("Admin"); //placeholder
     // TODO Admin password
 }
-else if ( username = null ) alert("Cancelled");
+else if ( username == null ) alert("Cancelled");
 else alert( "I don't know you");
