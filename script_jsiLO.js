@@ -37,6 +37,8 @@ alert( firstName || lastName || nickName || "Anonymous");
 true || alert("not printed");
 false || alert("printed");
 */
+
+/* && AND exercises
 alert( true && true );
 alert( false && true );
 alert( true && false );
@@ -74,3 +76,4 @@ let x = 1;
 x = 1;
 
 if (x > 0) alert( 'Greater than zero! (correct way)');
+*/
