@@ -85,3 +85,6 @@ alert( !0 );
 
 alert( !!"non-empty string" );
 alert( !!null );
+
+alert( Boolean("non-empty string"));
+alert( Boolean(null));
