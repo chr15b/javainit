@@ -70,3 +70,7 @@ alert( 1 && 2 && 3 );
 let x = 1;
 
 (x > 0) && alert( 'Greater than zero!' );
+
+x = 1;
+
+if (x > 0) alert( 'Greater than zero! (correct way)');
