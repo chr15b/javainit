@@ -82,3 +82,6 @@ if (x > 0) alert( 'Greater than zero! (correct way)');
 
 alert( !true );
 alert( !0 );
+
+alert( !!"non-empty string" );
+alert( !!null );
