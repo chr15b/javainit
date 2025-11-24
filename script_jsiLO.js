@@ -106,7 +106,13 @@ alert ( 1 && null && 2 );
 
 alert( "4. 1"); // 1 then undefind
 alert( alert(1) && alert(2) );
-*/
+
 
 alert( "5. 3");
 alert( null || 2 && 3 || 4 );
+*/
+
+let age = 50
+if ((age >=14) && (age<=90)) {
+    alert( "6. Age between 14 & 90");
+}
