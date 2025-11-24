@@ -91,5 +91,10 @@ alert( Boolean(null));
 
 */
 
+/* Tasks
 alert("1. 2")
 alert( null || 2 || undefined );
+*/
+
+alert( "2. 123")
+alert( alert(1) || 2 alert(3) );
