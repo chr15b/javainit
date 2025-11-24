@@ -128,9 +128,13 @@ let age =7;
 if( age < 14 || age > 90) {
     alert( "8. Age less than 14 or over 90");
 }
-*/
 
-alert( "9. Third");
+
+alert( "9. Third"); // first then third
 if (-1 || 0) alert( 'first' );
 if (-1 && 0) alert( 'second' );
 if (null || -1 && 1) alert( 'third' );
+*/
+
+let username = prompt("Enter username");
+alert(username);
