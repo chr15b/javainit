@@ -139,8 +139,11 @@ if (null || -1 && 1) alert( 'third' );
 let username = prompt("Who's there?");
 
 if (username == "Admin") {
-    alert("Admin"); //placeholder
-    // TODO Admin password
+    let password = prompt("Password?");
+
+    if (password === "TheMaster") alert("Welcome!");
+    else if (password === null || password === "" ) alert("Cancelled");
+    else alert("Wrong password");
 }
 else if ( username === null || username === "" ) alert("Cancelled");
 else alert( "I don't know you");
