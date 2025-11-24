@@ -98,7 +98,11 @@ alert( null || 2 || undefined );
 
 alert( "2. 123") // 1 then 2
 alert( alert(1) || 2 || alert(3) );
-*/
+
 
 alert( "3. null");
 alert ( 1 && null && 2 );
+*/
+
+alert( "4. 1");
+alert( alert(1) && alert(2) );
