@@ -9,9 +9,10 @@ if (shoppingDone === true) {
 } 
 alert(childAllowance); */
 
-/* Weather choice
+// Weather choice
 const select = document.querySelector("select");
 const para = document.querySelector("p");
+let temperature = 88;
 
 select.addEventListener("change", setWeather);
 
@@ -19,9 +20,14 @@ function setWeather() {
     const choice = select.value;
 
     if (choice === "sunny") {
-        para.textContent =
-        "It is nice and sunny outside today. Wear shorts! Go to the beach, \
-        or the park, and get an ice cream.";
+        if (temperature < 86) {
+            para.textContent = `It is ${temperature} degrees outside - nice and sunny. Let's go out to the beach, \
+        or the park, and get an ice cream.`;
+        } else if (temperature >= 86) {
+            para.textContent =
+        `It is ${temperature} degrees outside - REALLY HOT! If you want to go \
+        outside, make sure to put some sunscreen on.`;
+        }
     } else if (choice === "rainy") {
         para.textContent =
         "Rain is falling outside; take a rain coat and an umbrella, and \
@@ -39,8 +45,7 @@ function setWeather() {
     } 
 }
 
-*/
-
+/*
 let cheese = "Cheddar";
 
 if (cheese) {
@@ -57,3 +62,4 @@ if (shoppingDone) {
     childAllowance =5;
 }
 console.log(childAllowance);
+*/
