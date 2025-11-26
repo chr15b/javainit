@@ -48,3 +48,11 @@ if (cheese) {
 } else {
     console.log("No cheese on toast for you today.");
 }
+let shoppingDone = false;
+let childAllowance;
+
+if (shoppingDone) {
+    childAllowance = 10;
+} else {
+    childAllowance =5;
+}
