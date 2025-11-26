@@ -56,3 +56,4 @@ if (shoppingDone) {
 } else {
     childAllowance =5;
 }
+console.log(childAllowance);
