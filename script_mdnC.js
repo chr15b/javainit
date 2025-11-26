@@ -12,7 +12,7 @@ alert(childAllowance); */
 // Weather choice
 const select = document.querySelector("select");
 const para = document.querySelector("p");
-let temperature = 88;
+temperature = prompt("Enter temperature");
 
 select.addEventListener("change", setWeather);
 
