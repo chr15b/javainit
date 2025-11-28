@@ -63,7 +63,7 @@ console.log(childAllowance);
 // OR Example
 let iceCreamVanOutside, housestatus;
 
-if (iceCreamVanOutside || housestatus === "on fire") {
+if (!(iceCreamVanOutside || housestatus === "on fire")) {
     console.log("You should leave the house quickly.");
 } else {
     console.log("Probably should just stay in then.");
