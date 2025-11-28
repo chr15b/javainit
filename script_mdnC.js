@@ -71,7 +71,7 @@ if (!(iceCreamVanOutside || housestatus === "on fire")) {
 */
 
 // Multiple logical statements
-let x, y, z, loggedIn, userName;
+let x = 5, y, z, loggedIn, userName;
 
 if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === "Steve")) {
     console.log("The code ran");
