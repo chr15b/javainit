@@ -71,7 +71,7 @@ if (!(iceCreamVanOutside || housestatus === "on fire")) {
 */
 
 // Multiple logical statements
-let x, y = 4, z, loggedIn, userName;
+let x, y = 4, z, loggedIn, userName = "Steve";
 
 console.log(y);
 
