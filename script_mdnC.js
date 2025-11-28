@@ -60,11 +60,19 @@ if (shoppingDone) {
 console.log(childAllowance);
 */
 
-// OR Example
+/* OR Example
 let iceCreamVanOutside, housestatus;
 
 if (!(iceCreamVanOutside || housestatus === "on fire")) {
     console.log("Probably should just stay in then.");
 } else {
     console.log("You should leave the house quickly.");
+}
+*/
+
+// Multiple logical statements
+let x, y, z, loggedIn, userName;
+
+if ((x === 5 || y > 3 || z <= 10) && (loggedIn || userName === "Steve")) {
+    console.log("The code ran");
 }
