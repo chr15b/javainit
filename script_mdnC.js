@@ -9,7 +9,7 @@ if (shoppingDone === true) {
 } 
 alert(childAllowance); */
 
-// Weather choice
+/* Weather choice
 const select = document.querySelector("select");
 const para = document.querySelector("p");
 let temperature = prompt("Enter temperature");
@@ -39,6 +39,7 @@ function setWeather() {
         para.textContent = "";
     } 
 }
+*/
 
 /*
 let cheese = "Cheddar";
@@ -58,3 +59,11 @@ if (shoppingDone) {
 }
 console.log(childAllowance);
 */
+
+// OR Example
+
+if (iceCreamVanOutside || housestatus === "on fire") {
+    console.log("You should leave the house quickly.");
+} else {
+    console.log("Probably should just stay in then.");
+}
