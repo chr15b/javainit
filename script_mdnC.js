@@ -64,7 +64,7 @@ console.log(childAllowance);
 let iceCreamVanOutside, housestatus;
 
 if (!(iceCreamVanOutside || housestatus === "on fire")) {
-    console.log("You should leave the house quickly.");
-} else {
     console.log("Probably should just stay in then.");
+} else {
+    console.log("You should leave the house quickly.");
 }
