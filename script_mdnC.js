@@ -81,7 +81,7 @@ if ( x === 5 || x === 7 || x === 10 || x === 20) {
 
 */
 
-// Weather choice switch format
+/* Weather choice switch format
 const select = document.querySelector("select");
 const para = document.querySelector("p");
 
@@ -118,3 +118,21 @@ function setWeather() {
             para.textContent = "";
     }
 }
+*/
+
+//Ternary operator example
+
+const select = document.querySelector("select");
+const html = document.querySelector("html");
+document.body.style.padding = "10px";
+
+function update(bgColor, textColor) {
+    html.style.backgroundColor = bgColor;
+    html.style.color = textColor;
+}
+
+select.addEventListener("change" , () =>
+    select.value === "black"
+        ? update("black", "white")
+        : update("white", "black")
+);
