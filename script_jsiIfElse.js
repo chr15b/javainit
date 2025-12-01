@@ -3,6 +3,7 @@
 let year = prompt('In which year was ECMAScript-2015 specification published?','');
 
 if (year == 2015) {
-    alert( "That's correct!");
-    alert( "You're so smart!");
+    alert( "You guessed it right!");
+} else {
+    alert( "How can you be so wrong?");
 }
