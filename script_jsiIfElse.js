@@ -91,10 +91,18 @@ if (value > 0) {
 }
 */
 
-//4. Rewrite 'if' into '?'
+/*4. Rewrite 'if' into '?'
 
 let result;
 
 (a + b < 4) ?
     result = 'Below' :
     result = 'Over';
+*/
+
+//5. Rewrite 'if..else' into '?'
+
+let message = (login == 'Employee') ? 'Hello' :
+    (login == 'Director') ? 'Greetings':
+    (login == '') ? 'No login' :
+    '';
