@@ -28,6 +28,7 @@ accessAllowed = (age > 18) ? true : false;
 alert(accessAllowed);
 */
 
+/*Multiple ? operators
 let age = prompt('age?', 18);
 
 let message = ( age < 3) ? `Hi, baby!` :
@@ -36,3 +37,10 @@ let message = ( age < 3) ? `Hi, baby!` :
     `What an unusual age!`;
 
 alert ( message );
+*/
+
+//Non-traditional use of ?
+let company = prompt('Which company created JavaScript?','');
+
+(company == 'Netscape') ?
+    alert('Right!') : alert ('Wrong.');
