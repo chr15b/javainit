@@ -1,5 +1,6 @@
 // Code to support work from https://javascript.info/ifelse
 
+/* IF Else
 let year = prompt('In which year was ECMAScript-2015 specification published?','');
 
 if (year < 2015) {
@@ -9,3 +10,18 @@ if (year < 2015) {
 } else {
     alert( "Exactly!" );
 }
+
+*/
+
+// Conditional operator ?
+
+let accessAllowed
+let age = prompt('How old are you?', '');
+
+if (age > 18) {
+    accessAllowed = true;
+} else {
+    accessAllowed = false;
+}
+
+alert(accessAllowed);
