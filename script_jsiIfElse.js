@@ -39,8 +39,19 @@ let message = ( age < 3) ? `Hi, baby!` :
 alert ( message );
 */
 
-//Non-traditional use of ?
+/*Non-traditional use of ? - Not a best practice as easier to read code in if else
 let company = prompt('Which company created JavaScript?','');
 
 (company == 'Netscape') ?
     alert('Right!') : alert ('Wrong.');
+
+*/
+
+// Recommended alternative to non-traditional use of ? example
+let company = prompt('Which company created JavaScript?','');
+
+if (company == "Netscape") {
+    alert('Right!');
+} else {
+    alert('Wrong.');
+}
