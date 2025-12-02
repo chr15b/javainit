@@ -60,9 +60,19 @@ if (company == "Netscape") {
 
 //Tasks
 
-//if (a string with zero)
+/*1. if (a string with zero)
 //Will alert be shown - No x Any string except an empty one (and "0" is not empty) becomes true in the logical context.
 if("0") {
     alert( 'Hello');
 }
 alert('all done');
+*/
+
+//2. The name of JavaScript
+let answer = prompt("What's the official name of Javascript?");
+
+if (answer == "ECMAScript") {
+    alert("Right!");
+} else {
+    alert(`You don't know "ECMAScript"!`);
+}
