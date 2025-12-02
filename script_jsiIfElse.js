@@ -62,7 +62,7 @@ if (company == "Netscape") {
 
 //if (a string with zero)
 //Will alert be shown - No x Any string except an empty one (and "0" is not empty) becomes true in the logical context.
-if(0) {
+if("0") {
     alert( 'Hello');
 }
 alert('all done');
