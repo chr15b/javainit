@@ -47,7 +47,7 @@ let company = prompt('Which company created JavaScript?','');
 
 */
 
-// Recommended alternative to non-traditional use of ? example
+/* Recommended alternative to non-traditional use of ? example
 let company = prompt('Which company created JavaScript?','');
 
 if (company == "Netscape") {
@@ -55,3 +55,14 @@ if (company == "Netscape") {
 } else {
     alert('Wrong.');
 }
+
+*/
+
+//Tasks
+
+//if (a string with zero)
+//Will alert be shown - No
+if("0") {
+    alert( 'Hello');
+}
+alert('all done');
