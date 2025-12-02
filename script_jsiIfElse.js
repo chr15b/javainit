@@ -13,19 +13,26 @@ if (year < 2015) {
 
 */
 
-// Conditional operator ?
+/* Conditional operator ?
 let accessAllowed
 let age = prompt('How old are you?', '');
 
-/*
 if (age > 18) {
     accessAllowed = true;
 } else {
     accessAllowed = false;
 }
-*/
 
 accessAllowed = (age > 18) ? true : false;
 
 alert(accessAllowed);
+*/
 
+let age = prompt('age?', 18);
+
+let message = ( age < 3) ? `Hi, baby!` :
+    ( age < 18 ) ? `Hello!` :
+    ( age < 100 ) ? `Greetings!` :
+    `What an unusual age!`;
+
+alert ( message );
