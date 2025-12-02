@@ -78,7 +78,7 @@ if (answer == "ECMAScript") {
 }
 */
 
-//3. Show the sign
+/*3. Show the sign
 
 let value = prompt("Enter a number","");
 
@@ -89,3 +89,12 @@ if (value > 0) {
 } else {
     alert(0);
 }
+*/
+
+//4. Rewrite 'if' into '?'
+
+let result;
+
+(a + b < 4) ?
+    result = 'Below' :
+    result = 'Over';
