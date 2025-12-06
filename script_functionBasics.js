@@ -7,9 +7,9 @@ const message = favouriteAnimal(animal)
 console.log(message)
 alert(message); */
 
-function hello(name = "Chris") {
+/* function hello(name = "Chris") {
     console.log(`Hello ${name}!`);
 }
 
 hello("boss");
-hello();
+hello(); */
