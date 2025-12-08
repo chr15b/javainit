@@ -5,7 +5,7 @@
 showMessage();
 showMessage(); */
 
-function showMessage() {
+/* function showMessage() {
     let message = "Hello, I'm JavaScript!";
 
     alert( message);
@@ -13,4 +13,5 @@ function showMessage() {
 
 showMessage();
 
-alert( message );
+alert( message ); */
+
