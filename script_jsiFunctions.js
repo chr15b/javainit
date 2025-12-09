@@ -15,15 +15,9 @@ showMessage();
 
 alert( message ); */
 
-function showMessage (from, text) {
-    
-    from = '*' + from + '*';
+function showMessage (from, text = "no text given") {
     
     alert(from + ': ' + text);
 }
 
-let from = "Ann";
-
-showMessage(from, 'Hello!');
-
-alert( from );
+showMessage("Ann");
