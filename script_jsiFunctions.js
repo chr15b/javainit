@@ -32,10 +32,17 @@ showMessage("Ann"); */
 
 showMessage(); */ 
 
-function showCount(count) {
+/*function showCount(count) {
     alert(count ?? "unknown");
 }
 
 showCount(0);
 showCount(null);
-showCount();
+showCount();*/
+
+function sum(a, b) {
+    return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
