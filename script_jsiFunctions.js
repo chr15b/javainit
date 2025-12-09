@@ -16,8 +16,12 @@ showMessage();
 alert( message ); */
 
 function showMessage (from, text) {
+    
+    from = '*' + from + '*';
+    
     alert(from + ': ' + text);
 }
 
-showMessage('Ann', 'Hello!');
-showMessage('Ann', "What's up?");
+let from = "Ann";
+
+showMessage(from, 'Hello!');
