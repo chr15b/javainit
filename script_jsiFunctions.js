@@ -15,9 +15,19 @@ showMessage();
 
 alert( message ); */
 
-function showMessage (from, text = "no text given") {
+/* function showMessage (from, text = "no text given") {
     
     alert(from + ': ' + text);
 }
 
-showMessage("Ann");
+showMessage("Ann"); */
+
+function showMessage(text) {
+    if (text === undefined) {
+        text = 'empty message';
+    }
+
+    alert(text);
+}
+
+showMessage();
