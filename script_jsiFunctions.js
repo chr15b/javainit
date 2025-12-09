@@ -22,7 +22,7 @@ alert( message ); */
 
 showMessage("Ann"); */
 
-function showMessage(text) {
+/* function showMessage(text) {
     if (text === undefined) {
         text = 'empty message';
     }
@@ -30,4 +30,12 @@ function showMessage(text) {
     alert(text);
 }
 
-showMessage();
+showMessage(); */ 
+
+function showCount(count) {
+    alert(count ?? "unknown");
+}
+
+showCount(0);
+showCount(null);
+showCount();
