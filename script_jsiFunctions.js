@@ -25,3 +25,5 @@ function showMessage (from, text) {
 let from = "Ann";
 
 showMessage(from, 'Hello!');
+
+alert( from );
