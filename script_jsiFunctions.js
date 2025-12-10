@@ -47,7 +47,7 @@ showCount();*/
 let result = sum(1, 2);
 alert( result ); */
 
-function checkAge(age) {
+/* function checkAge(age) {
     if (age >= 18) {
         return true;
     } else {
@@ -61,4 +61,10 @@ if ( checkAge(age) ) {
     alert( 'Access granted');
 } else {
     alert( 'Access denied');
-}
+} */
+
+// Task 2
+
+function checkAge(age) {
+  return (age > 18) ? true : confirm('Did parents allow you?');
+  }
