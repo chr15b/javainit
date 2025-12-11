@@ -63,8 +63,24 @@ if ( checkAge(age) ) {
     alert( 'Access denied');
 } */
 
-// Task 2
+/* Task 2
 
 function checkAge(age) {
   return (age > 18) || confirm('Did parents allow you?');
-  }
+  } */
+
+// Task 3
+
+function min(a,b){
+    if (a < b) {
+        return a;
+    } else if (a > b) {
+        return b;
+    } else {
+        return a;
+    }
+}
+
+let a = prompt ("Value a?","");
+let b = prompt ("Value b?","");
+alert(min(a,b));
