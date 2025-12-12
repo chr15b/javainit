@@ -2,4 +2,7 @@ function sayHi() {
     alert( "Hello");
 }
 
-alert( sayHi );
+let func = sayHi;
+
+func();
+sayHi();
