@@ -26,7 +26,7 @@ welcome();
 
 */
 
-// Example 4
+/* Example 4
 
 let sum = (a,b) => {
     let result = a + b;
@@ -34,3 +34,18 @@ let sum = (a,b) => {
 }
 
 alert( sum(1,2));
+
+*/
+
+// Task 1
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  () => alert("You agreed."),
+  () => alert("You canceled the execution.")
+);
