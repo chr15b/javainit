@@ -20,8 +20,8 @@
         function capitalize (string) {
             let a = string.toLowerCase();
             let b = a.at(0).toUpperCase();
+            a = a.replace(a.at(0), b);
             console.log(a);
-            console.log(b);
             return null;
         }
     </script>
