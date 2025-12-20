@@ -6,7 +6,7 @@ const b = "World";
 console.log(c);
 */
 
-//Example 2
+/*Example 2
 const a = 5;
 const b = 10;
 
@@ -19,3 +19,10 @@ function print() {
 }
 
 print();
+*/
+
+//Example 3
+
+function helloWorld() {
+    console.log "Hello World!"
+}
