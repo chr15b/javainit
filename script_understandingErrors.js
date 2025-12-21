@@ -39,10 +39,22 @@ const message = str1.concat(str2);
 console.log(message);
 */
 
-//ReferenceError Catch MDN
+/*ReferenceError Catch MDN
 
 try {
     let a = undefinedVariable;
+} catch (e) {
+    console.log(e instanceof ReferenceError);
+    console.log(e.message);
+    console.log(e.name);
+    console.log(e.stack);
+}
+*/
+
+//ReferenceError Create MDN
+
+try {
+    throw new ReferenceError("Hello");
 } catch (e) {
     console.log(e instanceof ReferenceError);
     console.log(e.message);
