@@ -51,12 +51,24 @@ try {
 }
 */
 
-//ReferenceError Create MDN
+/*ReferenceError Create MDN
 
 try {
     throw new ReferenceError("Hello");
 } catch (e) {
     console.log(e instanceof ReferenceError);
+    console.log(e.message);
+    console.log(e.name);
+    console.log(e.stack);
+}
+*/
+
+//SyntaxError Catch MDN
+
+try {
+    eval("hoo bar");
+} catch (e) {
+    console.log(e instanceof SyntaxError);
     console.log(e.message);
     console.log(e.name);
     console.log(e.stack);
