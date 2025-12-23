@@ -63,10 +63,22 @@ try {
 }
 */
 
-//SyntaxError Catch MDN
+/*SyntaxError Catch MDN
 
 try {
     eval("hoo bar");
+} catch (e) {
+    console.log(e instanceof SyntaxError);
+    console.log(e.message);
+    console.log(e.name);
+    console.log(e.stack);
+}
+*/
+
+//SyntaxError Create MDN
+
+try {
+    throw new SyntaxError("Hello");
 } catch (e) {
     console.log(e instanceof SyntaxError);
     console.log(e.message);
