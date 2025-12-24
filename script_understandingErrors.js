@@ -75,12 +75,24 @@ try {
 }
 */
 
-//SyntaxError Create MDN
+/*SyntaxError Create MDN
 
 try {
     throw new SyntaxError("Hello");
 } catch (e) {
     console.log(e instanceof SyntaxError);
+    console.log(e.message);
+    console.log(e.name);
+    console.log(e.stack);
+}
+*/
+
+//TypeError Catch MDN
+
+try {
+    null.f();
+} catch (e) {
+    console.log(e instanceof TypeError);
     console.log(e.message);
     console.log(e.name);
     console.log(e.stack);
