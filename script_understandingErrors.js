@@ -87,10 +87,22 @@ try {
 }
 */
 
-//TypeError Catch MDN
+/*TypeError Catch MDN
 
 try {
     null.f();
+} catch (e) {
+    console.log(e instanceof TypeError);
+    console.log(e.message);
+    console.log(e.name);
+    console.log(e.stack);
+}
+*/
+
+//TypeError Create MDN
+
+try {
+    throw new TypeError("Hello");
 } catch (e) {
     console.log(e instanceof TypeError);
     console.log(e.message);
